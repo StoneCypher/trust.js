@@ -1,26 +1,34 @@
 {
-  "name": "gulp-strip-react-dom-comment",
+  "name": "trust.js",
   "version": "0.0.4",
-  "description": "Strips the /** @jsx React.DOM */ from pipes to support tools that can't handle the comment",
+  "description": "Trust your now-simpler JsVerify and Vows tests",
   "keywords": [
-    "strip",
-    "gulp",
-    "react",
-    "react.js",
-    "dom",
-    "react.dom"
+    "trust",
+    "trust.js",
+    "jsverify",
+    "vows",
+    "vows.js",
+    "test",
+    "testing",
+    "fuzz",
+    "fuzz testing",
+    "stochastic",
+    "stochastic testing",
+    "property",
+    "property testing",
+    "test generator"
   ],
-  "main": "stripdom.js",
+  "main": "trust.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StoneCypher/gulp-strip-react-dom-comment.git"
+    "url": "https://github.com/StoneCypher/trust.js.git"
   },
   "author": {
     "name": "John Haugeland"
   },
   "license": "MIT",
   "dependencies": {
-    "gulp-util": "~2.2.5",
-    "event-stream": "~3.0.20"
+    "vows": "*",
+    "jsverify": "*"
   }
 }
